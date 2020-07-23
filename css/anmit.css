@@ -1,0 +1,1415 @@
+@charset "UTF-8";
+
+@-webkit-keyframes typed {
+
+    /* string 1, char 1 */
+    0%,
+    0.4518985507% {
+        content: "🚚";
+    }
+
+    /* string 1, char 2 */
+    0.4528985507%,
+    0.9047971014% {
+        content: "🚚 ";
+    }
+
+    /* string 1, char 3 */
+    0.9057971014%,
+    1.3576956522% {
+        content: "🚚 F";
+    }
+
+    /* string 1, char 4 */
+    1.3586956522%,
+    1.8105942029% {
+        content: "🚚 Fr";
+    }
+
+    /* string 1, char 5 */
+    1.8115942029%,
+    2.2634927536% {
+        content: "🚚 Fre";
+    }
+
+    /* string 1, char 6 */
+    2.2644927536%,
+    2.7163913043% {
+        content: "🚚 Free";
+    }
+
+    /* string 1, char 7 */
+    2.7173913043%,
+    3.1692898551% {
+        content: "🚚 Free ";
+    }
+
+    /* string 1, char 8 */
+    3.1702898551%,
+    3.6221884058% {
+        content: "🚚 Free S";
+    }
+
+    /* string 1, char 9 */
+    3.6231884058%,
+    4.0750869565% {
+        content: "🚚 Free Sh";
+    }
+
+    /* string 1, char 10 */
+    4.0760869565%,
+    4.5279855072% {
+        content: "🚚 Free Shi";
+    }
+
+    /* string 1, char 11 */
+    4.5289855072%,
+    4.980884058% {
+        content: "🚚 Free Ship";
+    }
+
+    /* string 1, char 12 */
+    4.981884058%,
+    5.4337826087% {
+        content: "🚚 Free Shipp";
+    }
+
+    /* string 1, char 13 */
+    5.4347826087%,
+    5.8866811594% {
+        content: "🚚 Free Shippi";
+    }
+
+    /* string 1, char 14 */
+    5.8876811594%,
+    6.3395797101% {
+        content: "🚚 Free Shippin";
+    }
+
+    /* string 1, char 15 */
+    6.3405797101%,
+    6.7924782609% {
+        content: "🚚 Free Shipping";
+    }
+
+    /* string 1, char 16 */
+    6.7934782609%,
+    16.6656666667% {
+        content: "🚚 Free Shipping!";
+    }
+
+    /* string 1, char 17 */
+    16.6666666667%,
+    17.0279855072% {
+        content: "🚚 Free Shipping";
+    }
+
+    /* string 1, char 18 */
+    17.0289855072%,
+    17.3903043478% {
+        content: "🚚 Free Shippin";
+    }
+
+    /* string 1, char 19 */
+    17.3913043478%,
+    17.7526231884% {
+        content: "🚚 Free Shippi";
+    }
+
+    /* string 1, char 20 */
+    17.7536231884%,
+    18.114942029% {
+        content: "🚚 Free Shipp";
+    }
+
+    /* string 1, char 21 */
+    18.115942029%,
+    18.4772608696% {
+        content: "🚚 Free Ship";
+    }
+
+    /* string 1, char 22 */
+    18.4782608696%,
+    18.8395797101% {
+        content: "🚚 Free Shi";
+    }
+
+    /* string 1, char 23 */
+    18.8405797101%,
+    19.2018985507% {
+        content: "🚚 Free Sh";
+    }
+
+    /* string 1, char 24 */
+    19.2028985507%,
+    19.5642173913% {
+        content: "🚚 Free S";
+    }
+
+    /* string 1, char 25 */
+    19.5652173913%,
+    19.9265362319% {
+        content: "🚚 Free ";
+    }
+
+    /* string 1, char 26 */
+    19.9275362319%,
+    20.2888550725% {
+        content: "🚚 Free";
+    }
+
+    /* string 1, char 27 */
+    20.2898550725%,
+    20.651173913% {
+        content: "🚚 Fre";
+    }
+
+    /* string 1, char 28 */
+    20.652173913%,
+    21.0134927536% {
+        content: "🚚 Fr";
+    }
+
+    /* string 1, char 29 */
+    21.0144927536%,
+    21.3758115942% {
+        content: "🚚 F";
+    }
+
+    /* string 1, char 30 */
+    21.3768115942%,
+    21.7381304348% {
+        content: "🚚 ";
+    }
+
+    /* string 1, char 31 */
+    21.7391304348%,
+    22.1004492754% {
+        content: "🚚";
+    }
+
+    /* string 1, char 32 */
+    22.1014492754%,
+    26.6294347826% {
+        content: "​";
+    }
+
+    /* string 2, char 1 */
+    26.6304347826%,
+    27.0823333333% {
+        content: "🔃";
+    }
+
+    /* string 2, char 2 */
+    27.0833333333%,
+    27.5352318841% {
+        content: "🔃 ";
+    }
+
+    /* string 2, char 3 */
+    27.5362318841%,
+    27.9881304348% {
+        content: "🔃 F";
+    }
+
+    /* string 2, char 4 */
+    27.9891304348%,
+    28.4410289855% {
+        content: "🔃 Fr";
+    }
+
+    /* string 2, char 5 */
+    28.4420289855%,
+    28.8939275362% {
+        content: "🔃 Fre";
+    }
+
+    /* string 2, char 6 */
+    28.8949275362%,
+    29.346826087% {
+        content: "🔃 Free";
+    }
+
+    /* string 2, char 7 */
+    29.347826087%,
+    29.7997246377% {
+        content: "🔃 Free ";
+    }
+
+    /* string 2, char 8 */
+    29.8007246377%,
+    30.2526231884% {
+        content: "🔃 Free R";
+    }
+
+    /* string 2, char 9 */
+    30.2536231884%,
+    30.7055217391% {
+        content: "🔃 Free Re";
+    }
+
+    /* string 2, char 10 */
+    30.7065217391%,
+    31.1584202899% {
+        content: "🔃 Free Ret";
+    }
+
+    /* string 2, char 11 */
+    31.1594202899%,
+    31.6113188406% {
+        content: "🔃 Free Retu";
+    }
+
+    /* string 2, char 12 */
+    31.6123188406%,
+    32.0642173913% {
+        content: "🔃 Free Retur";
+    }
+
+    /* string 2, char 13 */
+    32.0652173913%,
+    41.9374057971% {
+        content: "🔃 Free Return";
+    }
+
+    /* string 2, char 14 */
+    41.9384057971%,
+    42.2997246377% {
+        content: "🔃 Free Retur";
+    }
+
+    /* string 2, char 15 */
+    42.3007246377%,
+    42.6620434783% {
+        content: "🔃 Free Retu";
+    }
+
+    /* string 2, char 16 */
+    42.6630434783%,
+    43.0243623188% {
+        content: "🔃 Free Ret";
+    }
+
+    /* string 2, char 17 */
+    43.0253623188%,
+    43.3866811594% {
+        content: "🔃 Free Re";
+    }
+
+    /* string 2, char 18 */
+    43.3876811594%,
+    43.749% {
+        content: "🔃 Free R";
+    }
+
+    /* string 2, char 19 */
+    43.75%,
+    44.1113188406% {
+        content: "🔃 Free ";
+    }
+
+    /* string 2, char 20 */
+    44.1123188406%,
+    44.4736376812% {
+        content: "🔃 Free";
+    }
+
+    /* string 2, char 21 */
+    44.4746376812%,
+    44.8359565217% {
+        content: "🔃 Fre";
+    }
+
+    /* string 2, char 22 */
+    44.8369565217%,
+    45.1982753623% {
+        content: "🔃 Fr";
+    }
+
+    /* string 2, char 23 */
+    45.1992753623%,
+    45.5605942029% {
+        content: "🔃 F";
+    }
+
+    /* string 2, char 24 */
+    45.5615942029%,
+    45.9229130435% {
+        content: "🔃 ";
+    }
+
+    /* string 2, char 25 */
+    45.9239130435%,
+    46.2852318841% {
+        content: "🔃";
+    }
+
+    /* string 2, char 26 */
+    46.2862318841%,
+    50.8142173913% {
+        content: "​";
+    }
+
+    /* string 3, char 1 */
+    50.8152173913%,
+    51.267115942% {
+        content: "💵";
+    }
+
+    /* string 3, char 2 */
+    51.268115942%,
+    51.7200144928% {
+        content: "💵 ";
+    }
+
+    /* string 3, char 3 */
+    51.7210144928%,
+    52.1729130435% {
+        content: "💵 M";
+    }
+
+    /* string 3, char 4 */
+    52.1739130435%,
+    52.6258115942% {
+        content: "💵 Me";
+    }
+
+    /* string 3, char 5 */
+    52.6268115942%,
+    53.0787101449% {
+        content: "💵 Mem";
+    }
+
+    /* string 3, char 6 */
+    53.0797101449%,
+    53.5316086957% {
+        content: "💵 Memb";
+    }
+
+    /* string 3, char 7 */
+    53.5326086957%,
+    53.9845072464% {
+        content: "💵 Membe";
+    }
+
+    /* string 3, char 8 */
+    53.9855072464%,
+    54.4374057971% {
+        content: "💵 Member";
+    }
+
+    /* string 3, char 9 */
+    54.4384057971%,
+    54.8903043478% {
+        content: "💵 Member ";
+    }
+
+    /* string 3, char 10 */
+    54.8913043478%,
+    55.3432028986% {
+        content: "💵 Member D";
+    }
+
+    /* string 3, char 11 */
+    55.3442028986%,
+    55.7961014493% {
+        content: "💵 Member Di";
+    }
+
+    /* string 3, char 12 */
+    55.7971014493%,
+    56.249% {
+        content: "💵 Member Dis";
+    }
+
+    /* string 3, char 13 */
+    56.25%,
+    56.7018985507% {
+        content: "💵 Member Disc";
+    }
+
+    /* string 3, char 14 */
+    56.7028985507%,
+    57.1547971014% {
+        content: "💵 Member Disco";
+    }
+
+    /* string 3, char 15 */
+    57.1557971014%,
+    57.6076956522% {
+        content: "💵 Member Discou";
+    }
+
+    /* string 3, char 16 */
+    57.6086956522%,
+    58.0605942029% {
+        content: "💵 Member Discoun";
+    }
+
+    /* string 3, char 17 */
+    58.0615942029%,
+    67.9337826087% {
+        content: "💵 Member Discount";
+    }
+
+    /* string 3, char 18 */
+    67.9347826087%,
+    68.2961014493% {
+        content: "💵 Member Discoun";
+    }
+
+    /* string 3, char 19 */
+    68.2971014493%,
+    68.6584202899% {
+        content: "💵 Member Discou";
+    }
+
+    /* string 3, char 20 */
+    68.6594202899%,
+    69.0207391304% {
+        content: "💵 Member Disco";
+    }
+
+    /* string 3, char 21 */
+    69.0217391304%,
+    69.383057971% {
+        content: "💵 Member Disc";
+    }
+
+    /* string 3, char 22 */
+    69.384057971%,
+    69.7453768116% {
+        content: "💵 Member Dis";
+    }
+
+    /* string 3, char 23 */
+    69.7463768116%,
+    70.1076956522% {
+        content: "💵 Member Di";
+    }
+
+    /* string 3, char 24 */
+    70.1086956522%,
+    70.4700144928% {
+        content: "💵 Member D";
+    }
+
+    /* string 3, char 25 */
+    70.4710144928%,
+    70.8323333333% {
+        content: "💵 Member ";
+    }
+
+    /* string 3, char 26 */
+    70.8333333333%,
+    71.1946521739% {
+        content: "💵 Member";
+    }
+
+    /* string 3, char 27 */
+    71.1956521739%,
+    71.5569710145% {
+        content: "💵 Membe";
+    }
+
+    /* string 3, char 28 */
+    71.5579710145%,
+    71.9192898551% {
+        content: "💵 Memb";
+    }
+
+    /* string 3, char 29 */
+    71.9202898551%,
+    72.2816086957% {
+        content: "💵 Mem";
+    }
+
+    /* string 3, char 30 */
+    72.2826086957%,
+    72.6439275362% {
+        content: "💵 Me";
+    }
+
+    /* string 3, char 31 */
+    72.6449275362%,
+    73.0062463768% {
+        content: "💵 M";
+    }
+
+    /* string 3, char 32 */
+    73.0072463768%,
+    73.3685652174% {
+        content: "💵 ";
+    }
+
+    /* string 3, char 33 */
+    73.3695652174%,
+    73.730884058% {
+        content: "💵";
+    }
+
+    /* string 3, char 34 */
+    73.731884058%,
+    78.2598695652% {
+        content: "​";
+    }
+
+    /* string 4, char 1 */
+    78.2608695652%,
+    78.7127681159% {
+        content: "🛍";
+    }
+
+    /* string 4, char 2 */
+    78.7137681159%,
+    79.1656666667% {
+        content: "🛍️";
+    }
+
+    /* string 4, char 3 */
+    79.1666666667%,
+    79.6185652174% {
+        content: "🛍️ ";
+    }
+
+    /* string 4, char 4 */
+    79.6195652174%,
+    80.0714637681% {
+        content: "🛍️ E";
+    }
+
+    /* string 4, char 5 */
+    80.0724637681%,
+    80.5243623188% {
+        content: "🛍️ En";
+    }
+
+    /* string 4, char 6 */
+    80.5253623188%,
+    80.9772608696% {
+        content: "🛍️ Enj";
+    }
+
+    /* string 4, char 7 */
+    80.9782608696%,
+    81.4301594203% {
+        content: "🛍️ Enjo";
+    }
+
+    /* string 4, char 8 */
+    81.4311594203%,
+    81.883057971% {
+        content: "🛍️ Enjoy";
+    }
+
+    /* string 4, char 9 */
+    81.884057971%,
+    82.3359565217% {
+        content: "🛍️ Enjoy ";
+    }
+
+    /* string 4, char 10 */
+    82.3369565217%,
+    92.2091449275% {
+        content: "🛍️ Enjoy ☕";
+    }
+
+    /* string 4, char 11 */
+    92.2101449275%,
+    92.5714637681% {
+        content: "🛍️ Enjoy ";
+    }
+
+    /* string 4, char 12 */
+    92.5724637681%,
+    92.9337826087% {
+        content: "🛍️ Enjoy";
+    }
+
+    /* string 4, char 13 */
+    92.9347826087%,
+    93.2961014493% {
+        content: "🛍️ Enjo";
+    }
+
+    /* string 4, char 14 */
+    93.2971014493%,
+    93.6584202899% {
+        content: "🛍️ Enj";
+    }
+
+    /* string 4, char 15 */
+    93.6594202899%,
+    94.0207391304% {
+        content: "🛍️ En";
+    }
+
+    /* string 4, char 16 */
+    94.0217391304%,
+    94.383057971% {
+        content: "🛍️ E";
+    }
+
+    /* string 4, char 17 */
+    94.384057971%,
+    94.7453768116% {
+        content: "🛍️ ";
+    }
+
+    /* string 4, char 18 */
+    94.7463768116%,
+    95.1076956522% {
+        content: "🛍️";
+    }
+
+    /* string 4, char 19 */
+    95.1086956522%,
+    95.4700144928% {
+        content: "🛍";
+    }
+
+    /* string 4, char 20 */
+    95.4710144928%,
+    100% {
+        content: "​";
+    }
+}
+
+@keyframes typed {
+
+    /* string 1, char 1 */
+    0%,
+    0.4518985507% {
+        content: "🚚";
+    }
+
+    /* string 1, char 2 */
+    0.4528985507%,
+    0.9047971014% {
+        content: "🚚 ";
+    }
+
+    /* string 1, char 3 */
+    0.9057971014%,
+    1.3576956522% {
+        content: "🚚 F";
+    }
+
+    /* string 1, char 4 */
+    1.3586956522%,
+    1.8105942029% {
+        content: "🚚 Fr";
+    }
+
+    /* string 1, char 5 */
+    1.8115942029%,
+    2.2634927536% {
+        content: "🚚 Fre";
+    }
+
+    /* string 1, char 6 */
+    2.2644927536%,
+    2.7163913043% {
+        content: "🚚 Free";
+    }
+
+    /* string 1, char 7 */
+    2.7173913043%,
+    3.1692898551% {
+        content: "🚚 Free ";
+    }
+
+    /* string 1, char 8 */
+    3.1702898551%,
+    3.6221884058% {
+        content: "🚚 Free S";
+    }
+
+    /* string 1, char 9 */
+    3.6231884058%,
+    4.0750869565% {
+        content: "🚚 Free Sh";
+    }
+
+    /* string 1, char 10 */
+    4.0760869565%,
+    4.5279855072% {
+        content: "🚚 Free Shi";
+    }
+
+    /* string 1, char 11 */
+    4.5289855072%,
+    4.980884058% {
+        content: "🚚 Free Ship";
+    }
+
+    /* string 1, char 12 */
+    4.981884058%,
+    5.4337826087% {
+        content: "🚚 Free Shipp";
+    }
+
+    /* string 1, char 13 */
+    5.4347826087%,
+    5.8866811594% {
+        content: "🚚 Free Shippi";
+    }
+
+    /* string 1, char 14 */
+    5.8876811594%,
+    6.3395797101% {
+        content: "🚚 Free Shippin";
+    }
+
+    /* string 1, char 15 */
+    6.3405797101%,
+    6.7924782609% {
+        content: "🚚 Free Shipping";
+    }
+
+    /* string 1, char 16 */
+    6.7934782609%,
+    16.6656666667% {
+        content: "🚚 Free Shipping!";
+    }
+
+    /* string 1, char 17 */
+    16.6666666667%,
+    17.0279855072% {
+        content: "🚚 Free Shipping";
+    }
+
+    /* string 1, char 18 */
+    17.0289855072%,
+    17.3903043478% {
+        content: "🚚 Free Shippin";
+    }
+
+    /* string 1, char 19 */
+    17.3913043478%,
+    17.7526231884% {
+        content: "🚚 Free Shippi";
+    }
+
+    /* string 1, char 20 */
+    17.7536231884%,
+    18.114942029% {
+        content: "🚚 Free Shipp";
+    }
+
+    /* string 1, char 21 */
+    18.115942029%,
+    18.4772608696% {
+        content: "🚚 Free Ship";
+    }
+
+    /* string 1, char 22 */
+    18.4782608696%,
+    18.8395797101% {
+        content: "🚚 Free Shi";
+    }
+
+    /* string 1, char 23 */
+    18.8405797101%,
+    19.2018985507% {
+        content: "🚚 Free Sh";
+    }
+
+    /* string 1, char 24 */
+    19.2028985507%,
+    19.5642173913% {
+        content: "🚚 Free S";
+    }
+
+    /* string 1, char 25 */
+    19.5652173913%,
+    19.9265362319% {
+        content: "🚚 Free ";
+    }
+
+    /* string 1, char 26 */
+    19.9275362319%,
+    20.2888550725% {
+        content: "🚚 Free";
+    }
+
+    /* string 1, char 27 */
+    20.2898550725%,
+    20.651173913% {
+        content: "🚚 Fre";
+    }
+
+    /* string 1, char 28 */
+    20.652173913%,
+    21.0134927536% {
+        content: "🚚 Fr";
+    }
+
+    /* string 1, char 29 */
+    21.0144927536%,
+    21.3758115942% {
+        content: "🚚 F";
+    }
+
+    /* string 1, char 30 */
+    21.3768115942%,
+    21.7381304348% {
+        content: "🚚 ";
+    }
+
+    /* string 1, char 31 */
+    21.7391304348%,
+    22.1004492754% {
+        content: "🚚";
+    }
+
+    /* string 1, char 32 */
+    22.1014492754%,
+    26.6294347826% {
+        content: "​";
+    }
+
+    /* string 2, char 1 */
+    26.6304347826%,
+    27.0823333333% {
+        content: "🔃";
+    }
+
+    /* string 2, char 2 */
+    27.0833333333%,
+    27.5352318841% {
+        content: "🔃 ";
+    }
+
+    /* string 2, char 3 */
+    27.5362318841%,
+    27.9881304348% {
+        content: "🔃 F";
+    }
+
+    /* string 2, char 4 */
+    27.9891304348%,
+    28.4410289855% {
+        content: "🔃 Fr";
+    }
+
+    /* string 2, char 5 */
+    28.4420289855%,
+    28.8939275362% {
+        content: "🔃 Fre";
+    }
+
+    /* string 2, char 6 */
+    28.8949275362%,
+    29.346826087% {
+        content: "🔃 Free";
+    }
+
+    /* string 2, char 7 */
+    29.347826087%,
+    29.7997246377% {
+        content: "🔃 Free ";
+    }
+
+    /* string 2, char 8 */
+    29.8007246377%,
+    30.2526231884% {
+        content: "🔃 Free R";
+    }
+
+    /* string 2, char 9 */
+    30.2536231884%,
+    30.7055217391% {
+        content: "🔃 Free Re";
+    }
+
+    /* string 2, char 10 */
+    30.7065217391%,
+    31.1584202899% {
+        content: "🔃 Free Ret";
+    }
+
+    /* string 2, char 11 */
+    31.1594202899%,
+    31.6113188406% {
+        content: "🔃 Free Retu";
+    }
+
+    /* string 2, char 12 */
+    31.6123188406%,
+    32.0642173913% {
+        content: "🔃 Free Retur";
+    }
+
+    /* string 2, char 13 */
+    32.0652173913%,
+    41.9374057971% {
+        content: "🔃 Free Return";
+    }
+
+    /* string 2, char 14 */
+    41.9384057971%,
+    42.2997246377% {
+        content: "🔃 Free Retur";
+    }
+
+    /* string 2, char 15 */
+    42.3007246377%,
+    42.6620434783% {
+        content: "🔃 Free Retu";
+    }
+
+    /* string 2, char 16 */
+    42.6630434783%,
+    43.0243623188% {
+        content: "🔃 Free Ret";
+    }
+
+    /* string 2, char 17 */
+    43.0253623188%,
+    43.3866811594% {
+        content: "🔃 Free Re";
+    }
+
+    /* string 2, char 18 */
+    43.3876811594%,
+    43.749% {
+        content: "🔃 Free R";
+    }
+
+    /* string 2, char 19 */
+    43.75%,
+    44.1113188406% {
+        content: "🔃 Free ";
+    }
+
+    /* string 2, char 20 */
+    44.1123188406%,
+    44.4736376812% {
+        content: "🔃 Free";
+    }
+
+    /* string 2, char 21 */
+    44.4746376812%,
+    44.8359565217% {
+        content: "🔃 Fre";
+    }
+
+    /* string 2, char 22 */
+    44.8369565217%,
+    45.1982753623% {
+        content: "🔃 Fr";
+    }
+
+    /* string 2, char 23 */
+    45.1992753623%,
+    45.5605942029% {
+        content: "🔃 F";
+    }
+
+    /* string 2, char 24 */
+    45.5615942029%,
+    45.9229130435% {
+        content: "🔃 ";
+    }
+
+    /* string 2, char 25 */
+    45.9239130435%,
+    46.2852318841% {
+        content: "🔃";
+    }
+
+    /* string 2, char 26 */
+    46.2862318841%,
+    50.8142173913% {
+        content: "​";
+    }
+
+    /* string 3, char 1 */
+    50.8152173913%,
+    51.267115942% {
+        content: "💵";
+    }
+
+    /* string 3, char 2 */
+    51.268115942%,
+    51.7200144928% {
+        content: "💵 ";
+    }
+
+    /* string 3, char 3 */
+    51.7210144928%,
+    52.1729130435% {
+        content: "💵 M";
+    }
+
+    /* string 3, char 4 */
+    52.1739130435%,
+    52.6258115942% {
+        content: "💵 Me";
+    }
+
+    /* string 3, char 5 */
+    52.6268115942%,
+    53.0787101449% {
+        content: "💵 Mem";
+    }
+
+    /* string 3, char 6 */
+    53.0797101449%,
+    53.5316086957% {
+        content: "💵 Memb";
+    }
+
+    /* string 3, char 7 */
+    53.5326086957%,
+    53.9845072464% {
+        content: "💵 Membe";
+    }
+
+    /* string 3, char 8 */
+    53.9855072464%,
+    54.4374057971% {
+        content: "💵 Member";
+    }
+
+    /* string 3, char 9 */
+    54.4384057971%,
+    54.8903043478% {
+        content: "💵 Member ";
+    }
+
+    /* string 3, char 10 */
+    54.8913043478%,
+    55.3432028986% {
+        content: "💵 Member D";
+    }
+
+    /* string 3, char 11 */
+    55.3442028986%,
+    55.7961014493% {
+        content: "💵 Member Di";
+    }
+
+    /* string 3, char 12 */
+    55.7971014493%,
+    56.249% {
+        content: "💵 Member Dis";
+    }
+
+    /* string 3, char 13 */
+    56.25%,
+    56.7018985507% {
+        content: "💵 Member Disc";
+    }
+
+    /* string 3, char 14 */
+    56.7028985507%,
+    57.1547971014% {
+        content: "💵 Member Disco";
+    }
+
+    /* string 3, char 15 */
+    57.1557971014%,
+    57.6076956522% {
+        content: "💵 Member Discou";
+    }
+
+    /* string 3, char 16 */
+    57.6086956522%,
+    58.0605942029% {
+        content: "💵 Member Discoun";
+    }
+
+    /* string 3, char 17 */
+    58.0615942029%,
+    67.9337826087% {
+        content: "💵 Member Discount";
+    }
+
+    /* string 3, char 18 */
+    67.9347826087%,
+    68.2961014493% {
+        content: "💵 Member Discoun";
+    }
+
+    /* string 3, char 19 */
+    68.2971014493%,
+    68.6584202899% {
+        content: "💵 Member Discou";
+    }
+
+    /* string 3, char 20 */
+    68.6594202899%,
+    69.0207391304% {
+        content: "💵 Member Disco";
+    }
+
+    /* string 3, char 21 */
+    69.0217391304%,
+    69.383057971% {
+        content: "💵 Member Disc";
+    }
+
+    /* string 3, char 22 */
+    69.384057971%,
+    69.7453768116% {
+        content: "💵 Member Dis";
+    }
+
+    /* string 3, char 23 */
+    69.7463768116%,
+    70.1076956522% {
+        content: "💵 Member Di";
+    }
+
+    /* string 3, char 24 */
+    70.1086956522%,
+    70.4700144928% {
+        content: "💵 Member D";
+    }
+
+    /* string 3, char 25 */
+    70.4710144928%,
+    70.8323333333% {
+        content: "💵 Member ";
+    }
+
+    /* string 3, char 26 */
+    70.8333333333%,
+    71.1946521739% {
+        content: "💵 Member";
+    }
+
+    /* string 3, char 27 */
+    71.1956521739%,
+    71.5569710145% {
+        content: "💵 Membe";
+    }
+
+    /* string 3, char 28 */
+    71.5579710145%,
+    71.9192898551% {
+        content: "💵 Memb";
+    }
+
+    /* string 3, char 29 */
+    71.9202898551%,
+    72.2816086957% {
+        content: "💵 Mem";
+    }
+
+    /* string 3, char 30 */
+    72.2826086957%,
+    72.6439275362% {
+        content: "💵 Me";
+    }
+
+    /* string 3, char 31 */
+    72.6449275362%,
+    73.0062463768% {
+        content: "💵 M";
+    }
+
+    /* string 3, char 32 */
+    73.0072463768%,
+    73.3685652174% {
+        content: "💵 ";
+    }
+
+    /* string 3, char 33 */
+    73.3695652174%,
+    73.730884058% {
+        content: "💵";
+    }
+
+    /* string 3, char 34 */
+    73.731884058%,
+    78.2598695652% {
+        content: "​";
+    }
+
+    /* string 4, char 1 */
+    78.2608695652%,
+    78.7127681159% {
+        content: "🛍";
+    }
+
+    /* string 4, char 2 */
+    78.7137681159%,
+    79.1656666667% {
+        content: "🛍️";
+    }
+
+    /* string 4, char 3 */
+    79.1666666667%,
+    79.6185652174% {
+        content: "🛍️ ";
+    }
+
+    /* string 4, char 4 */
+    79.6195652174%,
+    80.0714637681% {
+        content: "🛍️ E";
+    }
+
+    /* string 4, char 5 */
+    80.0724637681%,
+    80.5243623188% {
+        content: "🛍️ En";
+    }
+
+    /* string 4, char 6 */
+    80.5253623188%,
+    80.9772608696% {
+        content: "🛍️ Enj";
+    }
+
+    /* string 4, char 7 */
+    80.9782608696%,
+    81.4301594203% {
+        content: "🛍️ Enjo";
+    }
+
+    /* string 4, char 8 */
+    81.4311594203%,
+    81.883057971% {
+        content: "🛍️ Enjoy";
+    }
+
+    /* string 4, char 9 */
+    81.884057971%,
+    82.3359565217% {
+        content: "🛍️ Enjoy ";
+    }
+
+    /* string 4, char 10 */
+    82.3369565217%,
+    92.2091449275% {
+        content: "🛍️ Enjoy ☕";
+    }
+
+    /* string 4, char 11 */
+    92.2101449275%,
+    92.5714637681% {
+        content: "🛍️ Enjoy ";
+    }
+
+    /* string 4, char 12 */
+    92.5724637681%,
+    92.9337826087% {
+        content: "🛍️ Enjoy";
+    }
+
+    /* string 4, char 13 */
+    92.9347826087%,
+    93.2961014493% {
+        content: "🛍️ Enjo";
+    }
+
+    /* string 4, char 14 */
+    93.2971014493%,
+    93.6584202899% {
+        content: "🛍️ Enj";
+    }
+
+    /* string 4, char 15 */
+    93.6594202899%,
+    94.0207391304% {
+        content: "🛍️ En";
+    }
+
+    /* string 4, char 16 */
+    94.0217391304%,
+    94.383057971% {
+        content: "🛍️ E";
+    }
+
+    /* string 4, char 17 */
+    94.384057971%,
+    94.7453768116% {
+        content: "🛍️ ";
+    }
+
+    /* string 4, char 18 */
+    94.7463768116%,
+    95.1076956522% {
+        content: "🛍️";
+    }
+
+    /* string 4, char 19 */
+    95.1086956522%,
+    95.4700144928% {
+        content: "🛍";
+    }
+
+    /* string 4, char 20 */
+    95.4710144928%,
+    100% {
+        content: "​";
+    }
+}
+
+@-webkit-keyframes beam-blink {
+    75% {
+        border-color: transparent;
+    }
+}
+
+@keyframes beam-blink {
+    75% {
+        border-color: transparent;
+    }
+}
+
+* {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+
+
+.anim {
+    flex: 4;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    background-color: inherit;
+    background-repeat: repeat-y;
+    background-position: center center;
+    background-size: cover, 100% 3px;
+    font-size: 32px;
+    font-weight: bold;
+    color: rgb(14, 24, 14);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.anim::after {
+    content: "​";
+    position: relative;
+    display: inline-block;
+    padding-right: 3px;
+    padding-right: calc(3px + 0.1vw);
+    white-space: nowrap;
+    -webkit-animation: typed 22.08s linear 1s infinite, beam-blink 1s infinite;
+    animation: typed 22.08s linear 1s infinite, beam-blink 1s infinite;
+
+}
+
+@media (max-width: 575px) {
+    .top3 {
+        flex-direction: column;
+    }
+
+    .right-logo {
+        flex-direction: column;
+    }
+
+    .anim::after {
+        top: 0px;
+    }
+}
