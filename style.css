@@ -714,6 +714,7 @@ input::placeholder {
 
 .wrapper {
     overflow: hidden;
+    position: relative;
 
 }
 
