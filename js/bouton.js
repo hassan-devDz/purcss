@@ -36,6 +36,8 @@ pos.forEach(posbtn => {
     });
 });
 
+
+
 /*
 const pos = document.querySelectorAll('.pos');
 pos.forEach(posbtn => {
