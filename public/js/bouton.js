@@ -3,7 +3,7 @@ const btns = document.querySelectorAll('.btn');
 
 
 btns.forEach(btn => {
-    btn.addEventListener('mousedown', function (e) {
+    btn.addEventListener('mousedown', function(e) {
         let x = e.offsetX;
         let y = e.offsetY;
         //console.log(btn.childNodes[0].style.color = 'red')
@@ -15,17 +15,56 @@ btns.forEach(btn => {
         setTimeout(() => ripples.remove(), 900);
     });
 });
+/*------------alerts------------------- */
+const creatAlert = (el, ref) => {
+    const div = document.createElement('div'),
+        icon = document.createElement('i');
+    div.setAttribute('class', 'alert');
+    icon.setAttribute('class', 'fas fa-check-circle');
+    div.appendChild(icon);
+    el.insertBefore(div, ref)
+}
+const removAlert = () => {
+    const elementRemove = document.querySelector('.alert');
+    elementRemove.remove()
+}
 const pos = document.querySelectorAll('.pos');
+
+
 pos.forEach(posbtn => {
-    posbtn.addEventListener('click', function (e) {
-
-        let x1 = e.target;
-        console.log(posbtn);
+    posbtn.addEventListener('click', function(e) {
 
 
+        let x1 = e.target.parentElement,
+            left1 = e.target.offsetLeft;
+
+
+
+        creatAlert(x1, e.target)
+        const alert1 = e.target.previousElementSibling;
+        alert1.style.left = left1 + 'px';
+        alert1.classList.toggle('alertactive');
+        e.target.style.opacity = '0';
+
+        function rem() {
+            alert1.classList.toggle('alertactive')
+        }
+
+        function opcity() {
+            e.target.style.opacity = '1';
+        }
 
         posbtn.classList.toggle("fas");
         posbtn.classList.toggle("red");
+        console.log(e.target, left1);
+        setTimeout(opcity, 1000)
+
+
+
+        setTimeout(rem, 1000)
+        setTimeout(removAlert, 1000);
+
+
 
 
 
@@ -36,6 +75,7 @@ pos.forEach(posbtn => {
     });
 });
 
+console.log(firebase)
 
 
 /*

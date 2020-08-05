@@ -1,18 +1,16 @@
-let controlPrev = document.querySelector('.control-prev'),
-    controlNext = document.querySelector('.control-next'),
-    productBlockOne = document.querySelector('.one');
-
-
-function slideron(prev, next, continer) {
-    let index = 0;
+function slideron(attrprev, attrnext, attrcontiner, percent, step) {
+    let prev = document.querySelector(attrprev),
+        next = document.querySelector(attrnext),
+        continer = document.querySelector(attrcontiner),
+        index = 0;
 
     function next1() {
 
-        if (index + 4 < continer.childElementCount) {
+        if (index + step < continer.childElementCount) {
             prev.classList.remove('disabled')
-            continer.style.transform = `translateX(-${(index+1)* 25}%)`;
+            continer.style.transform = `translateX(-${(index+1)* percent}%)`;
             index++
-            if (index + 4 == continer.childElementCount) {
+            if (index + step == continer.childElementCount) {
                 next.classList.add('disabled')
             }
 
@@ -26,7 +24,7 @@ function slideron(prev, next, continer) {
 
         if (index > 0) {
             next.classList.remove('disabled')
-            continer.style.transform = `translateX(-${(index-1)* 25}%)`;
+            continer.style.transform = `translateX(-${(index-1)* percent}%)`;
             index--
             if (index == 0) {
                 prev.classList.add('disabled')
@@ -42,8 +40,8 @@ function slideron(prev, next, continer) {
     prev.addEventListener('click', prev1);
 }
 
-slideron(controlPrev, controlNext, productBlockOne)
-
+slideron('section .control-prev', 'section .control-next', 'section .one', 25, 4)
+slideron('aside .control-prev', 'aside .control-next', 'aside .one', 100, 1)
 
 
 

@@ -32,21 +32,22 @@ function slide(items, prev, next, ind) {
     var index = 0;
     window.index = index;
     window.slidesLength = slidesLength
-    // Clone first and last slide
+        // Clone first and last slide
     items.appendChild(cloneFirst);
     items.insertBefore(cloneLast, firstSlide);
 
     const dragStart = (e) => {
         e = e || window.event;
+        console.log(e)
         e.preventDefault();
         posInitial = items.offsetLeft;
         if (e.type == 'touchstart') {
             posX1 = e.touches[0].clientX;
         } else {
             posX1 = e.clientX;
-
-            document.onmouseup = dragEnd;
             document.onmousemove = dragAction;
+            document.onmouseup = dragEnd;
+
         }
     }
     const dragAction = (e) => {
@@ -69,6 +70,8 @@ function slide(items, prev, next, ind) {
         } else {
             items.style.left = (posInitial) + "px";
         }
+        e.preventDefault()
+        console.log(document.onmouseup, document.onmousemove)
         document.onmouseup = false;
         document.onmousemove = false;
     }
@@ -102,25 +105,25 @@ function slide(items, prev, next, ind) {
         allowShift = false;
     }
     const checkIndex = () => {
-        items.classList.remove('shifting');
-        console.log('index check', index)
-        if (index == -1) {
-            items.style.left = -(ind.children.length * 100) + "%";
+            items.classList.remove('shifting');
+            console.log('index check', index)
+            if (index == -1) {
+                items.style.left = -(ind.children.length * 100) + "%";
 
-            index = ind.children.length - 1;
+                index = ind.children.length - 1;
+            }
+            if (index == ind.children.length) {
+                items.style.left = -(1 * 100) + "%";
+                index = 0;
+            }
+            allowShift = true;
         }
-        if (index == ind.children.length) {
-            items.style.left = -(1 * 100) + "%";
-            index = 0;
-        }
-        allowShift = true;
-    }
-    // Click events
+        // Click events
     function getEventTarget(e) {
         e = e || window.event;
         return e.target;
     }
-    ind.addEventListener("click", function (event) {
+    ind.addEventListener("click", function(event) {
         let target = getEventTarget(event);
         let li = target.closest('li'); // get reference
         if (li == null) {
@@ -139,7 +142,7 @@ function slide(items, prev, next, ind) {
         }
     });
     /*-------------------Key events------------------ */
-    document.addEventListener('keydown', function (e) {
+    document.addEventListener('keydown', function(e) {
         switch (e.code) {
             case "KeyA":
             case "ArrowLeft":
@@ -152,7 +155,7 @@ function slide(items, prev, next, ind) {
         }
     });
     /*-------------------Click events----------------- */
-    prev.addEventListener('click', function () {
+    prev.addEventListener('click', function() {
         shiftSlide(-1)
 
     });
@@ -195,39 +198,39 @@ function slide(items, prev, next, ind) {
 const imageInputUrl = document.getElementById('url');
 const buttonAdd = document.getElementById('add')
 buttonAdd.addEventListener("click", e => {
-    var chiled1 = sliderItems.lastElementChild.cloneNode(true);
-    chiled1.children[0].children[0].setAttribute('id', 'image');
-    sliderItems.insertBefore(chiled1, sliderItems.children[sliderItems.childElementCount - 2])
-    let image = document.getElementById("image");
-    /*-------------check status url--------- */
+        var chiled1 = sliderItems.lastElementChild.cloneNode(true);
+        chiled1.children[0].children[0].setAttribute('id', 'image');
+        sliderItems.insertBefore(chiled1, sliderItems.children[sliderItems.childElementCount - 2])
+        let image = document.getElementById("image");
+        /*-------------check status url--------- */
 
-    if (imageInputUrl.value) {
-        (async () => {
-            let response = await fetch(imageInputUrl.value);
+        if (imageInputUrl.value) {
+            (async() => {
+                let response = await fetch(imageInputUrl.value);
 
-            if (response.ok) { // if HTTP-status is 200-299
-                // get the response body (the method explained below)
-                //let json = await response.json();
-                image.src = imageInputUrl.value.trim();
-                image.removeAttribute('id', 'image')
-                var copy1 = indicatots_ol.lastElementChild.cloneNode()
-                copy1.setAttribute('class', 'indicator-item')
-                indicatots_ol.insertBefore(copy1, indicatots_ol.children[indicatots_ol.childElementCount - 2])
-                alert("ok: " + response.status);
-            } else {
-                alert("HTTP-Error: " + response.status);
-            }
-        })()
-    }
-})
-/*const input = document.querySelector('input');
+                if (response.ok) { // if HTTP-status is 200-299
+                    // get the response body (the method explained below)
+                    //let json = await response.json();
+                    image.src = imageInputUrl.value.trim();
+                    image.removeAttribute('id', 'image')
+                    var copy1 = indicatots_ol.lastElementChild.cloneNode()
+                    copy1.setAttribute('class', 'indicator-item')
+                    indicatots_ol.insertBefore(copy1, indicatots_ol.children[indicatots_ol.childElementCount - 2])
+                    alert("ok: " + response.status);
+                } else {
+                    alert("HTTP-Error: " + response.status);
+                }
+            })()
+        }
+    })
+    /*const input = document.querySelector('input');
 
 
-input.addEventListener('input', updateValue);
+    input.addEventListener('input', updateValue);
 
-function updateValue(e) {
-    return e.target.value;
-}*/
+    function updateValue(e) {
+        return e.target.value;
+    }*/
 slide(sliderItems, prev, next, indicatots_ol);
 /*----------------set image in localStorage-----------*/
 // const jojo = document.createElement('span'),
